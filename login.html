@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>EPSI PANEL</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <div class="nav-wrapper">
+          <img src="./img/epsi-logo.png" width="70px" />
+          <a href="#" class="brand-logo">EPSI PANEL</a>
+        </div>
+      </nav>
+      <div class="login-container">
+        <div class="login-box">
+          <h2>Connexion</h2>
+          <form action="#" method="POST">
+            <div class="input-group">
+              <label for="username">Nom d'utilisateur</label>
+              <input type="text" id="username" name="username" required />
+            </div>
+            <div class="input-group">
+              <label for="password">Mot de passe</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+
+            <button type="submit" class="login-btn">Se connecter</button>
+            <button onclick="window.location='inscription.html'"  class="sign-btn" href=>
+              S'inscrire
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
